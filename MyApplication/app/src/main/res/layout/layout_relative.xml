@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User: "
+        android:textSize="25dp"/>
+    <EditText android:id="@+id/edituser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/txtuser"/>
+    <Button
+        android:layout_width="@dimen/connect_width"
+        android:layout_height="@dimen/connect_height"
+        android:text="Connect"
+        android:layout_below="@+id/edituser"
+        android:layout_alignParentRight="true" />
+    <ImageView android:id="@+id/imgnougat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nougat"/>
+</RelativeLayout>
